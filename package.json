@@ -1,0 +1,33 @@
+{
+  "name": "webpack4-boilerplate-basic",
+  "version": "1.0.0",
+  "description": "This is a simple boilerplate template for starting new projects in Webpack 4. I'll eventually try to create a more advanced boilerplate once I figure out how this actually works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronrose77/webpack4-boilerplate-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronrose77/webpack4-boilerplate-basic/issues"
+  },
+  "homepage": "https://github.com/aaronrose77/webpack4-boilerplate-basic#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}
